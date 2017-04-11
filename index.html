@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Мое портфолио</title>
+</head>
+<body bgcolor="cfcfcf">
+    <h1 align="center">Мой сайт портфолио</h1>
+        <form action="" method="post">
+        	<input type="text" name="name" id="name" placeholder="Введите имя">
+        	<input type="password" name="pswrd" id="pswrd" placeholder="Введите пароль">
+        	<input type="submit" id="submit" value="Войти">
+        	<input type="reset"  value="Сброс">
+        </form>
+    <hr color="red">
+    <div>
+        <h2 class="section-title">Мои контакты</h2>
+        <div>
+            <h3 style="color: blue;">Я в соц.сетях</h3>
+            <ul>
+                <li><a href="http://vk.com" target="_blank" title="Перейти на мою страничку в вк">Я в ВК</a></li>
+                <li><a href="facebook.com">Я в FB</a></li>
+                <li><a href="#">Я где-то ещё</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2 class="section-title">Обо мне</h2>
+        <div>
+            <<img id="my-ava" src="http://lorempixel.com/200/200/sports/" alt="Моя аватар" title="Всплывающая подмсказка для картынки аватар">
+        </div>
+        <h3>моя биография</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati veritatis, ducimus fugit? Deserunt et sed suscipit quasi quae obcaecati similique, quas molestiae doloremque, ab error amet eligendi nesciunt eius eaque quam deleniti doloribus non quis, voluptatum modi? Repudiandae dolorem exercitationem dolore mollitia eum rem, sunt vitae? Cum voluptates et in similique, quaerat, ipsa neque odit commodi dignissimos perferendis porro enim, unde eius tenetur debitis iure ab velit harum reiciendis corporis illo placeat dolor at. Blanditiis id ea fuga exercitationem, excepturi laborum soluta molestiae maiores animi aut hic consectetur fugit beatae corporis cupiditate itaque cum ratione, eaque nihil explicabo dolore, saepe.</p>
+        <<p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты. Когда от милой моей долины поднимается пар и полдневное солнце стоит над непроницаемой чащей темного леса и лишь редкий луч проскальзывает в его святая святых, а я лежу в высокой траве у быстрого ручья и, прильнув</p>
+    </div>
+    <div>
+        <h2 class="section-title">Моя статисктика</h2>
+        <table border="1" cellpadding="10" cellspacing="1">
+            <tr bgcolor="cacaca">
+                <td>Вид проекта</td>
+                <td>Сделано</td>
+                <td>Выкуплено</td>
+            </tr>
+            <tr>
+                <td>Статичных</td>
+                <td>хз1</td>
+                <td>Хз2</td>
+            </tr>
+            <tr>
+                <td>Адаптивных</td>
+                <td>хз3</td>
+                <td>хз4</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2 class="section-title">Заказать у меня сайт</h2>
+        <form action="order.php" method="post">
+            <div>
+                <label for="client_name">
+                <span>Имя клиента:</span>
+                </label>
+                <input type="text" id="client_name" placeholder="Введите имя" name="client_name">
+            </div>
+            <div>
+                <label>
+                    <span>Введите почту</span>
+                    <input type="text" placeholder="Введите email" name="client_email">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Выберите пол</span>
+                    <input type="radio" name="gendre" value="male"> М
+                    <input type="radio" name="gendre" value="female"> Ж
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    <span>Дополнительные возможности</span>
+                    <input type="checkbox" name="extra" value="adaptive"> Адаптивность
+                    <input type="checkbox" name="extra" value="hosting" checked> Установка на хостинг
+                    <input type="checkbox" name="extra" value="support"> Дальнейшая поддержка
+                    <input type="checkbox" name="extra" value="admin"> Установка админ-панели
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>тип сайта</span>
+                    <select name="type">
+                        <option value="esshop">Интернет-магазин</option>
+                        <option value="landing">Лэндинг</option>
+                        <option value="card">Сайт-визитка</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Приложите эскиз</span>
+                    <input type="file"  name="file">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Ваш комментарий</span>
+                    <textarea name="comment" cols="30" rows="10" maxlength="100"></textarea>
+                </label>
+            </div>
+            <div>
+                <input type="reset" value="Сброс">
+                <button name="submit">Отправить</button>
+            </div>
+        </form>
+</body>
+</html>
